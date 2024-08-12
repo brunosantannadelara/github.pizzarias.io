@@ -1,0 +1,152 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#header{
+    background-color: red;
+    z-index: 1;
+
+
+}
+body{
+    background-color: #ffa07a;
+}
+#h1-header{
+    color: #fff;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+.h3-header{
+    color: #fff;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+.link-cabeçalho{
+    text-decoration: none;
+    color: #fff;
+    word-spacing: 5px;
+    font-size: 16px;
+    font-family: Arial;
+}
+#navegação{
+    text-align: right;
+    padding-right: 5px;
+}
+    .section-1{
+        background-color: red;
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+        height: 160px;
+        border-radius: 12px;
+        color: #fff;
+    }
+.h2-section1{
+    font-family: arial;
+    font-size: 25px;
+    padding-top: 27px;
+}
+.p1{
+    padding-top: 13px;
+    font-family: arial;
+    font-size: 22px;
+}
+#section-grid{
+    padding: 10px;
+    height: 10%;
+    padding-bottom: 20px;
+
+}
+.section-2{
+    background-color: red;
+    margin:auto;
+    width: 50%;
+    max-width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.grid{
+    background-color: none;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 10px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+.sub-grid{
+    margin: 0 auto;
+    padding: 10%;
+    background-color: #fff;
+    margin-top: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.sub-grid1{
+    margin: 0 auto;
+    padding: 30%;
+    background-color: #fff;
+    margin-top: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sub-grid2{
+    margin: 0 auto;
+    padding: 30%;
+    background-color: #fff;
+    margin-top: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.img-pizza{
+    max-width: 100px;
+}
+.h2-cardapio{
+    font-family: arial;
+    font-size: 28px;
+    color: #fff;
+}
+.h2-sub-grid{
+    font-family: arial;
+    font-size: 20px;
+    color: red;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.p-preços{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.botao-acao{
+    width: 70%;
+    background-color: red;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius:12px;
+    padding-top: 5px;
+}
+.link-cabeçalho{
+    font-weight: bold;
+    font-family: arial;
+}
+.link-cabeçalho:hover{
+    color: yellow;
+    transition: all ease-in-out 3ns;
+}
